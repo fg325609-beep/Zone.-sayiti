@@ -5,3 +5,20 @@
     list-style: none;
     text-decoration: none;
 }
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(13, 13, 58);
+    .container{
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+    }
+}
