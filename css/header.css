@@ -15,6 +15,7 @@
 }
 
 header .container .navbar {
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +23,7 @@ header .container .navbar {
 header .container .navbar ul li {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 header .container .navbar ul li a {
   color: white;
@@ -44,4 +45,14 @@ header .container .navbar ul li .btn {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0%;
+}
+
+@media (max-width: 700px) {
+  header .container .navbar {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  header .container .navbar ul li {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,66 @@
+main{
+    section{
+        .sectton_one{
+            display: flex;
+            align-items: center;
+            .sectton_one_left{
+                width: 55%;
+                display: flex;
+                align-items: start;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                h1{
+                    background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 58px;
+                    line-height: 84px;
+                    letter-spacing: 2%;
+                    
+                }
+                p{
+                    font-family: DM Sans;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    color:rgba(229, 231, 235, 1);
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+
+                    
+                }
+                span{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    a{
+                        background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+                        padding: 15px 20px;
+                        border-radius: 5px;
+                    }
+                    .btn_two{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        background:none;
+                        color: white;
+                        i{
+                            background: none;
+                        }
+                    }
+                }
+            }
+            .section_one_right{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
