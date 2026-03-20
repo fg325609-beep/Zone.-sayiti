@@ -98,6 +98,7 @@ main section .sectton_one .sectton_one_left span a {
   background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
   padding: 15px 20px;
   border-radius: 5px;
+  color: white;
 }
 main section .sectton_one .sectton_one_left span .btn_two {
   display: flex;
@@ -109,9 +110,9 @@ main section .sectton_one .sectton_one_left span .btn_two {
 main section .sectton_one .sectton_one_left span .btn_two i {
   background: none;
 }
-main section .sectton_one .sectton_one_right {
+main section .sectton_one .section_one_right {
   width: 40%;
 }
-main section .sectton_one .sectton_one_right img {
+main section .sectton_one .section_one_right img {
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
