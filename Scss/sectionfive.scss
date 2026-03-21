@@ -88,3 +88,25 @@ section{
         }
     }
 }
+
+
+
+@media(max-width:900px){
+    section{
+        .container{
+            .section_five{
+                overflow: hidden;          
+                animation: slide 10s linear infinite;
+                .card{
+                    
+                    @keyframes slide {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }   /* -50% chunki ikkita nusxa */
+}
+
+                }
+            }
+        }
+    }
+    
+}
