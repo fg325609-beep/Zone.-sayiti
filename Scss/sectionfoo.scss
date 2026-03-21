@@ -1,6 +1,9 @@
 section{
     .container{
         .section_foo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             .section_foo_left{
                 width: 45%;
                 display: flex;
@@ -34,10 +37,12 @@ section{
                     background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
                     border-radius: 5px;
                     color: white;
-
+                    padding: 10px 20px;
+                    
                     
                 }
             }
         }
     }
 }
+
