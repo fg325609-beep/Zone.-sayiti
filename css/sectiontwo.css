@@ -21,7 +21,15 @@ section .container .section_two_text p {
   text-align: center;
   color: white;
 }
+section .container .section_two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  backdrop-filter: blur(200px);
+  padding-top: 100px;
+}
 section .container .section_two .card {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -44,6 +52,7 @@ section .container .section_two .card .icon {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  font-size: 30px;
 }
 section .container .section_two .card h1 {
   font-family: DM Sans;
@@ -76,5 +85,8 @@ section .container .section_two .card a {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  background: none;
+}
+section .container .section_two .card a i {
   background: none;
 }/*# sourceMappingURL=sectiontwo.css.map */

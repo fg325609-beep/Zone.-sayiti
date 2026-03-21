@@ -27,7 +27,12 @@ section{
             }
         }
         .section_two{
-            .card{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            backdrop-filter: blur(200px);
+            padding-top: 100px;
+            .card{align-items: center;
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
@@ -52,6 +57,7 @@ section{
                     align-items: center;
                     justify-content: center;
                     margin: 0 auto;
+                    font-size: 30px;
 
                 }
 
@@ -89,6 +95,9 @@ section{
                         align-items: center;
                         justify-content: center;
                         background: none;
+                        i{
+                            background: none;
+                        }
                         
                     }
             }
