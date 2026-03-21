@@ -4,6 +4,7 @@ section{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding-top: 100px;
             .section_foo_left{
                 width: 45%;
                 display: flex;
@@ -42,7 +43,29 @@ section{
                     
                 }
             }
+            .section_foo_right{
+                width: 45%;
+                img{
+                    width: 100%;
+                }
+            }
         }
     }
 }
 
+@media(max-width:776px){
+   section{
+    .container{
+        .section_foo{
+            flex-direction: column;
+            .section_foo_left{
+                text-align: center;
+              width: 100%;
+            }
+            .section_foo_right{
+                width: 100%;
+            }
+        }
+    }
+   } 
+}

@@ -4,6 +4,7 @@ section{
             width: 70%;
             justify-content: center;
             margin: 0 auto;
+            padding-top: 100px;
             h1{
                 font-family: DM Sans;
                 font-weight: 700;
@@ -100,6 +101,46 @@ section{
                         }
                         
                     }
+            }
+        }
+    }
+}
+
+
+@media(max-width:731px){
+    section{
+        .container{
+            .section_two_text{
+                width: 100%;
+            }
+            .section_two{
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media(max-width:600px){
+    section{
+        .container{
+            .section_two{
+           overflow: hidden;           
+        //     white-space: nowrap;
+        display: flex;
+        flex-wrap: nowrap;
+                .card{
+                    width: 100%;
+                   animation: scroll-left 15s linear infinite;
+                    @keyframes scroll-left {
+                        from {
+                            transform: translateX(100%);   
+                        }
+                        to {
+                            transform: translateX(-100%);  /* chapga to‘liq o‘tib ketadi */
+                        }
+                    }
+                }
             }
         }
     }

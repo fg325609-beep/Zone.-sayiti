@@ -1,7 +1,9 @@
+@charset "UTF-8";
 section .container .section_two_text {
   width: 70%;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 100px;
 }
 section .container .section_two_text h1 {
   font-family: DM Sans;
@@ -89,4 +91,33 @@ section .container .section_two .card a {
 }
 section .container .section_two .card a i {
   background: none;
+}
+
+@media (max-width: 731px) {
+  section .container .section_two_text {
+    width: 100%;
+  }
+  section .container .section_two {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  section .container .section_two {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  section .container .section_two .card {
+    width: 100%;
+    animation: scroll-left 15s linear infinite;
+  }
+  @keyframes scroll-left {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%); /* chapga to‘liq o‘tib ketadi */
+    }
+  }
 }/*# sourceMappingURL=sectiontwo.css.map */

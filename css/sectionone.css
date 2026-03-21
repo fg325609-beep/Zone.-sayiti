@@ -1,5 +1,6 @@
 main section .sectton_one {
   display: flex;
+  padding-top: 100px;
   align-items: center;
 }
 main section .sectton_one .sectton_one_left {
@@ -57,4 +58,44 @@ main section .sectton_one .section_one_right {
 }
 main section .sectton_one .section_one_right img {
   width: 100%;
+}
+
+@media (max-width: 730px) {
+  section .container .sectton_one .sectton_one_left {
+    width: 100%;
+  }
+  section .container .sectton_one .sectton_one_left h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  section .container .sectton_one .sectton_one_left p {
+    line-height: normal;
+    font-size: 25px;
+  }
+  section .container .sectton_one .section_one_right {
+    width: 100%;
+  }
+}
+@media (max-width: 622px) {
+  section .container .sectton_one span {
+    flex-wrap: wrap;
+  }
+  section .container .sectton_one {
+    padding-top: 30px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-self: center;
+  }
+  section .container .sectton_one .sectton_one_left h1 {
+    font-size: 55px;
+    line-height: 75px;
+  }
+  section .container .sectton_one .sectton_one_left {
+    width: 100%;
+  }
+  section .container .sectton_one .section_one_right {
+    width: 100%;
+  }
 }/*# sourceMappingURL=sectionone.css.map */

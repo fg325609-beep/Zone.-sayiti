@@ -43,4 +43,31 @@ section .container .section_tearee .section_tearee_right a {
   background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
   color: white;
   border-radius: 5px;
+}
+
+@media (max-width: 870px) {
+  section .container .section_tearee .section_tearee_right {
+    gap: 10px;
+  }
+  section .container .section_tearee .section_tearee_right h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+}
+@media (max-width: 700px) {
+  section .container .section_tearee {
+    flex-direction: column-reverse;
+  }
+  section .container .section_tearee .section_tearee_left {
+    width: 100%;
+  }
+  section .container .section_tearee .section_tearee_right {
+    text-align: center;
+    gap: 40px;
+    width: 100%;
+  }
+  section .container .section_tearee .section_tearee_right h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
 }/*# sourceMappingURL=sectiontearee.css.map */

@@ -2,6 +2,7 @@ section .container .section_foo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 100px;
 }
 section .container .section_foo .section_foo_left {
   width: 45%;
@@ -36,4 +37,23 @@ section .container .section_foo .section_foo_left a {
   border-radius: 5px;
   color: white;
   padding: 10px 20px;
+}
+section .container .section_foo .section_foo_right {
+  width: 45%;
+}
+section .container .section_foo .section_foo_right img {
+  width: 100%;
+}
+
+@media (max-width: 776px) {
+  section .container .section_foo {
+    flex-direction: column;
+  }
+  section .container .section_foo .section_foo_left {
+    text-align: center;
+    width: 100%;
+  }
+  section .container .section_foo .section_foo_right {
+    width: 100%;
+  }
 }/*# sourceMappingURL=sectionfoo.css.map */
