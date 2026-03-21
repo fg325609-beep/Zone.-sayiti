@@ -1,4 +1,5 @@
 section .container .section_six {
+  padding: 100px 0;
   background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
   border: 1px solid;
   box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
@@ -9,7 +10,7 @@ section .container .section_six {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 100px 0;
+  margin: 100px auto;
 }
 section .container .section_six h1 {
   font-family: DM Sans;
@@ -38,6 +39,8 @@ section .container form {
   box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
   background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
   border-radius: 70px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 section .container form input {
   border: none;
