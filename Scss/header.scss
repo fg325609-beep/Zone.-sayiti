@@ -15,8 +15,17 @@
       padding: 0 20px;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 1px 10px 10px rgb(83, 82, 81);
     .container{
     .navbar{
         padding: 20px ;
