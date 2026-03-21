@@ -514,6 +514,7 @@ section .container .section_six {
   padding: 100px 0;
   background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
   border: 1px solid;
+  border-radius: 76px;
   box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
   border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
   width: 70%;
@@ -532,6 +533,7 @@ section .container .section_six h1 {
   letter-spacing: 0%;
   text-align: center;
   background: none;
+  color: white;
 }
 section .container .section_six p {
   font-family: Roboto;
@@ -541,6 +543,7 @@ section .container .section_six p {
   letter-spacing: 0%;
   text-align: center;
   background: none;
+  color: white;
 }
 section .container form {
   width: 70%;
@@ -583,6 +586,14 @@ section .container form a i {
   background: none;
 }
 
+@media (max-width: 800px) {
+  section .container .section_six {
+    width: 100%;
+  }
+  section .container .section_six form {
+    width: 100%;
+  }
+}
 footer .container .f_container {
   display: flex;
   align-items: start;
