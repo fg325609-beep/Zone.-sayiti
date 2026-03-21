@@ -1,0 +1,19 @@
+section{
+    .container{
+        .section_tearee{
+            display: flex;
+            align-items: start;
+            .section_tearee_left{
+                width: 45%;
+                img{
+                    width: 100%;
+                }
+            }
+            .section_tearee_right{
+                width: 45%;
+                display: flex;
+                flex-direction: column
+            }
+        }
+    }
+}
